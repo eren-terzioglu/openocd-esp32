@@ -11,8 +11,6 @@ body:
     label: Development Kit
     description: On which development kit does this issue occur?
     placeholder: e.g. ESP32-DevKitC
-  validations:
-    required: true
       
 - type: input
   id: module_or_chip_used
