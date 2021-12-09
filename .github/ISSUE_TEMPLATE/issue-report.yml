@@ -1,7 +1,8 @@
 name: Issue report 
 description: Create a report to help us improve #m
 labels: ["bug"]
-assignees: 
+#assignees: ''
+#title: ''
 body:
 - type: input
   id: development_kit
