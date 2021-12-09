@@ -52,10 +52,10 @@ body:
   id: using_an_iDE
   attributes:
     label: Using an IDE ?
-    description: Do you using and IDE when this issue occured? If yes, which IDE does this issue occur?
+    description: Did you use any IDE when this issue occurred? If yes, which IDE does this issue occur in?
     placeholder: 
   validations:
-    required: false
+    required: true
       
 - type: input
   id: openocd_command_line
@@ -94,6 +94,8 @@ body:
       2. Click on '....'
       3. Scroll down to '....'
       4. See error
+  validations:
+    required: true
 
 - type: textarea
   id: debug_logs
@@ -106,7 +108,9 @@ body:
   attributes:
     label: Expected behavior
     description: A clear and concise description of what you expected to happen.
-
+  validations:
+    required: true
+    
 - type: textarea
   id: screenshots
   attributes:
