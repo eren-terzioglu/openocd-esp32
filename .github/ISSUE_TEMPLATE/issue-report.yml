@@ -107,7 +107,7 @@ body:
 - type: textarea
   id: debug_logs
   attributes:
-    label: "" #Debug Logs
+    label: Debug Logs
 #- type: markdown
 #  id: markdown_id
 #  attributes:
