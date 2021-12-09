@@ -102,6 +102,7 @@ body:
   attributes:
     label: Debug Logs
     description: Attach verbose debug logs for OpenOCD and GDB. See [item 3 here](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/jtag-debugging/tips-and-quirks.html#reporting-issues-with-openocd-gdb) for how to generate verbose logs.
+    render: shell
 
 - type: textarea
   id: expected_behavior
