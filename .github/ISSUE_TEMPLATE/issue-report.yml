@@ -100,7 +100,6 @@ body:
   id: debug_logs
   attributes:
     label: Debug Logs
-    description:
     - type: markdown
       id: markdown_id
       attributes:
