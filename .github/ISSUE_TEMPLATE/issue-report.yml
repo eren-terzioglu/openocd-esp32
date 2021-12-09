@@ -1,7 +1,6 @@
 name: Issue report 
 description: Create a report to help us improve #m
 labels: ["bug"]
-title:	
 assignees: 
 body:
 - type: input
