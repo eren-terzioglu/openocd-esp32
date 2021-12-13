@@ -1,5 +1,5 @@
 name: Issue report 
-description: Create a report to help us improve #m
+description: Create a report to help us improve
 labels: ["bug"]
 #assignees: ''
 #title: ''
@@ -53,7 +53,7 @@ body:
   attributes:
     label: Using an IDE ?
     description: Did you use any IDE when this issue occurred? If yes, which IDE does this issue occur in?
-    placeholder: 
+    placeholder: e.g. Eclipse
   validations:
     required: true
       
