@@ -2,7 +2,8 @@ name: Issue without hardware report
 description: Create a report to help us improve #m
 labels: ["bug"]
 #assignees: ''
-#title: ''      
+#title: ''
+body:
 - type: input
   id: openocd_version
   attributes:
